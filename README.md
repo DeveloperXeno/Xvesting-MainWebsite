@@ -83,14 +83,6 @@ This repository does **not** grant permission to copy, reproduce, distribute, mo
 
 ---
 
-## 📄 License
-
-**Proprietary — All Rights Reserved**
-
-See [`LICENSE`](LICENSE.md) for the complete terms.
-
----
-
 ## 👨‍💻 Development
 
 Xvesting is developed and maintained as a proprietary project.
