@@ -1,0 +1,11 @@
+{
+  "title": "Xvesting — AI-Powered Investing Analysis & Market Intelligence",
+  "description": "Xvesting is an AI-powered investing intelligence platform offering real-time market analysis, portfolio insights, automated workflows, and a secure private dataroom.",
+  "language": "en",
+  "icons": {
+    "icon": "/favicon.png"
+  },
+  "openGraph": {
+    "image": "https://xvesting.ai/og-image.png"
+  }
+}
