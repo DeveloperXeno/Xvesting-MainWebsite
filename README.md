@@ -87,7 +87,7 @@ This repository does **not** grant permission to copy, reproduce, distribute, mo
 
 **Proprietary — All Rights Reserved**
 
-See [`LICENSE`](LICENSE) for the complete terms.
+See [`LICENSE`](LICENSE.md) for the complete terms.
 
 ---
 
