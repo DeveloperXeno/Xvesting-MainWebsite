@@ -1,0 +1,39 @@
+# Xvesting
+
+> AI-powered investment intelligence for institutional and professional investors. Real-time market data, AI-driven research tools, smart portfolios, and an autonomous AI agent that analyzes markets — all in one platform.
+
+Xvesting is a fintech platform that combines proprietary AI with deep financial data infrastructure to help investment professionals make faster, better-informed decisions. The platform processes public and private data sources at scale — SEC filings, earnings transcripts, broker research, internal Excel models, and more — and surfaces investment-grade insights with full citation traceability.
+
+## Core capabilities
+
+- **AI market agent**: An autonomous agent that answers complex investment questions, synthesizes research from 100,000+ sources, and generates auditable, citation-grounded answers.
+- **Proprietary data ingestion**: Upload internal data — spreadsheets, memos, models — and query it alongside public sources in one unified search.
+- **Real-time market intelligence**: Live feeds spanning equities, macro, and crypto with relevance-ranked signal scoring.
+- **Report generation**: Investment memos, earnings summaries, and Q&A prep generated in seconds with traceable sourcing.
+- **Enterprise security**: SOC 2 Type II audited, AES-256 encryption at rest and in transit, zero model training on client data, admin governance and permissions.
+
+## Research
+
+Xvesting publishes original technical research on AI architecture, financial NLP, market microstructure, and data infrastructure. Papers are authored by the Xvesting Research Team and Xvesting Infrastructure Team.
+
+- Citation-Grounded Retrieval for Investment Research (August 2026) — RAG architecture for auditable AI answers with 94.7% citation accuracy.
+- Hierarchical Document Indexing at Cell Granularity (July 2026) — Cell-level financial table indexing improving retrieval precision by 34%.
+- Latency and Alpha: Information Decay Rate of Earnings Call Transcripts (June 2026) — Quantified alpha decay curve showing 73% of signal captured within 8 minutes.
+- Multi-Tenant Vector Store Isolation (May 2026) — Security and performance trade-offs across three isolation architectures.
+- Domain Adaptation of LLMs for Investment Research: FinBench-TX (April 2026) — 2,400-task benchmark study comparing frontier models against CFA charterholder baselines.
+- Agentic Research Workflows for Investment Diligence (March 2026) — DAG-based task decomposition reducing hallucination rate from 18.7% to 2.9%.
+
+## Pages
+
+- [Homepage](https://xvesting.ai/): Platform overview, core features, and investment use cases.
+- [APIs](https://xvesting.ai/apis): REST API documentation for integrating Xvesting data and AI into external systems.
+- [Security](https://xvesting.ai/security): SOC 2, encryption, and data governance details for enterprise buyers.
+- [Research](https://xvesting.ai/research): Full catalog of technical papers and benchmark studies.
+
+## Company
+
+- Website: https://xvesting.ai
+- App: https://app.xvesting.co
+- Twitter/X: @xvesting
+- Founded: 2024
+- Category: Financial technology / AI investment intelligence

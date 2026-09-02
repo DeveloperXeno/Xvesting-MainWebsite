@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400&display=swap');
+@import 'tailwindcss';
+
+@font-face {
+  font-family: 'APK Narrative';
+  src: url('/fonts/APK-Narrative-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'APK Narrative';
+  src: url('/fonts/APK-Narrative-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'APK Narrative Mono';
+  src: url('/fonts/APK-Narrative-Mono.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/Inter-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/Inter-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/Inter-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+/* Inter Bold 700 — served via Google Fonts import above */
+
+@theme inline {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'APK Narrative', 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  --font-accent: 'IBM Plex Sans', ui-sans-serif, system-ui, sans-serif;
+  --font-accent-mono: 'IBM Plex Mono', ui-monospace, monospace;
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-grey-6: #1d2121;
+  --color-grey-5: #2c3333;
+  --color-grey-4: #545a51;
+  --color-grey-3: #909c8c;
+  --color-grey-2: #c3cfc3;
+  --color-grey-1: #deefe5;
+  --color-grey-0: #f5f7f6;
+  --color-zest: #00c805;
+  --color-flare: #ff284e;
+  --color-white-80: rgba(255,255,255,0.8);
+  --color-white-60: rgba(255,255,255,0.6);
+  --header-height: 4rem;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar { width: 3px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #2c3333; }
+
+/* Typography scale matching original */
+.text-display { font-size: clamp(3rem, 1rem + 5.5vw, 6rem); line-height: 1.05; letter-spacing: -0.02em; }
+.text-hero { font-size: clamp(3.5rem, 1rem + 8vw, 8rem); line-height: 1.02; letter-spacing: -0.03em; }
+.text-h1 { font-size: clamp(2.1875rem, 0.875rem + 3.2813vw, 3.5rem); line-height: 1.15; letter-spacing: -0.01em; }
+.text-h2 { font-size: clamp(1.875rem, 0.625rem + 3.125vw, 3.125rem); line-height: 1.08; }
+.text-h3 { font-size: clamp(1.75rem, 0.75rem + 2.5vw, 2.75rem); line-height: 1.15; letter-spacing: -0.01em; }
+.text-h4 { font-size: clamp(1.625rem, 1rem + 1.5625vw, 2.25rem); line-height: 1.18; letter-spacing: -0.01em; }
+.text-h6 { font-size: clamp(1.375rem, 1rem + 0.9375vw, 1.75rem); line-height: 1.18; letter-spacing: -0.01em; }
+.text-body-XL { font-size: clamp(1.25rem, 1.125rem + 0.3125vw, 1.375rem); line-height: 1.45; letter-spacing: 0.01em; font-feature-settings: "ss03" on; }
+.text-body-L { font-size: clamp(1.0625rem, 0.875rem + 0.4688vw, 1.25rem); line-height: 1.45; letter-spacing: 0.01em; font-feature-settings: "ss03" on; }
+.text-body-M { font-size: clamp(0.9375rem, 0.75rem + 0.4688vw, 1.125rem); line-height: 1.45; letter-spacing: 0.01em; font-feature-settings: "ss03" on; }
+.text-body-S { font-size: clamp(0.875rem, 0.75rem + 0.3125vw, 1rem); line-height: 1.45; letter-spacing: 0.01em; font-feature-settings: "ss03" on; }
+.text-body-XS { font-size: clamp(0.875rem, 0.8125rem + 0.1563vw, 0.9375rem); line-height: 1.45; letter-spacing: 0.015em; font-feature-settings: "ss03" on; }
+.text-btn-link { font-size: clamp(0.875rem, 0.8125rem + 0.1563vw, 0.9375rem); font-weight: 500; line-height: 1.05; letter-spacing: 0.01em; font-feature-settings: "ss03" on; }
+.text-nav-link { font-size: clamp(0.875rem, 0.8125rem + 0.1563vw, 0.9375rem); line-height: 1.05; letter-spacing: 0.01em; }
+.text-eyebrow { font-family: 'JetBrains Mono', 'APK Narrative Mono', ui-monospace, monospace; font-size: 0.75rem; line-height: 1.05; letter-spacing: 0.01em; }
+.text-colophon { font-size: 0.75rem; line-height: 1.05; }
+.text-stat { font-size: clamp(2rem, 1rem + 2.5vw, 3.5rem); line-height: 1; letter-spacing: -0.02em; font-weight: 400; }
+
+.container { width: 100%; padding-left: 1.5rem; padding-right: 1.5rem; margin-left: auto; margin-right: auto; }
+@media (min-width: 640px) { .container { padding-left: 2rem; padding-right: 2rem; } }
+@media (min-width: 1024px) { .container { padding-left: 3rem; padding-right: 3rem; } }
+.container-max-w-1360 { max-width: 85rem; }
+.container-max-w-1200 { max-width: 75rem; }
+
+.text-white-80 { color: rgba(255,255,255,0.8); }
+.text-white-60 { color: rgba(255,255,255,0.6); }
+.bg-grey-0 { background-color: #f5f7f6; }
+.bg-grey-6 { background-color: #1d2121; }
+.bg-grey-5 { background-color: #2c3333; }
+.bg-zest { background-color: #00c805; }
+.bg-flare { background-color: #ff284e; }
+.border-grey-1 { border-color: #deefe5; }
+.border-grey-2 { border-color: #c3cfc3; }
+.border-grey-3 { border-color: #909c8c; }
+.border-grey-5 { border-color: #2c3333; }
+.text-grey-4 { color: #545a51; }
+.text-grey-5 { color: #2c3333; }

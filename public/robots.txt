@@ -1,0 +1,74 @@
+# robots.txt — https://xvesting.ai
+
+# ── All crawlers ──────────────────────────────────────────────────────────────
+User-agent: *
+Allow: /
+Disallow: /privacy-policy
+Disallow: /terms-of-service
+
+# ── Google (Search + AI Overviews / SGE) ─────────────────────────────────────
+User-agent: Googlebot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# ── OpenAI / ChatGPT ──────────────────────────────────────────────────────────
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# ── Anthropic / Claude ────────────────────────────────────────────────────────
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# ── Perplexity ────────────────────────────────────────────────────────────────
+User-agent: PerplexityBot
+Allow: /
+
+# ── Microsoft Bing / Copilot ──────────────────────────────────────────────────
+User-agent: Bingbot
+Allow: /
+
+User-agent: msnbot
+Allow: /
+
+# ── Meta / Llama ──────────────────────────────────────────────────────────────
+User-agent: FacebookBot
+Allow: /
+
+# ── Apple ─────────────────────────────────────────────────────────────────────
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# ── Common Crawl (used for LLM training datasets) ────────────────────────────
+User-agent: CCBot
+Allow: /
+
+# ── Cohere ────────────────────────────────────────────────────────────────────
+User-agent: cohere-ai
+Allow: /
+
+# ── Brave Search ─────────────────────────────────────────────────────────────
+User-agent: Brave
+Allow: /
+
+# ── DuckDuckGo ───────────────────────────────────────────────────────────────
+User-agent: DuckDuckBot
+Allow: /
+
+# ── You.com ──────────────────────────────────────────────────────────────────
+User-agent: YouBot
+Allow: /
+
+# ── Sitemaps ──────────────────────────────────────────────────────────────────
+Sitemap: https://xvesting.ai/sitemap.xml
+Sitemap: https://xvesting.ai/sitemap-research.xml
